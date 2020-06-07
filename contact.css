@@ -1,0 +1,212 @@
+*{
+	margin:1px;
+	
+}
+.UpperBorder{
+	border-style:solid;
+	min-width:1178px;
+	min-height:108px;
+	margin-left:161px;
+	background-color:#012340;
+	border-top-color:yellow;
+	border-left-width:0px;
+	color:white;
+			}
+			.logo{
+				margin-left:0.5px;
+				margin-top:-114PX;
+				height:60%;
+				
+			}
+			
+	Header
+	{
+		background-image: url("https://images.unsplash.com/photo-1464925257126-6450e871c667?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80");
+		height:100vh;
+		background-size:cover;
+		background-position:center;
+	}
+	.TitleName{
+		margin-left:5px;
+		margin-top:40px;
+		font-size:20px;
+	}
+	.Search{
+				margin-left:830px;
+				margin-top:-40px;
+			}
+	.Slogen{
+		
+		font-size:5px;
+		
+	}
+	
+	.buttons ul{
+		list-style-type:none;
+		float:right;
+		margin-top:20%;
+		
+	}
+	.buttons ul li{
+		
+		display:inline;
+	}
+	.buttons ul li a{
+		
+		text-decoration:none;
+		color:#fff;
+		padding:5px 20px;
+		border:1px solid transparent;
+		transition:0.6s ease;
+	}
+	.buttons ul li a:hover{
+		background-color:#fff;
+		color:#000;
+	}
+	.buttons ul li.active a{
+		background-color:#fff;
+		color:#000;
+		
+	}
+	.buttons{
+		margin-top:-250px;
+		
+		list-style:none;
+		
+	}
+	.intro{
+		margin-left:100px;
+		margin-top:-50px;
+		text-align:center;
+		color:pink;;
+	}
+	
+	
+	.list1 ul{
+		
+		list-style:none;
+		margin:5px;
+		padding:10px;
+		
+		
+		
+		}
+		
+	.list1 ul li{
+		
+		padding:15px;
+		position:relative;
+		width:150px;
+		
+		background-color:#34495E;
+		border-top:2px solid #BDC3C7;
+		border-right:4px solid green;
+		
+		
+	}
+	.list1 ul ul{
+		transition:all 0.3s;
+		opacity:0;
+		position:absolute;
+		visibility:hidden;
+		left:100%;
+		top:-2%;
+	}
+	.list1 ul li:hover > ul{
+		opacity:1;
+		visibility:visible;
+	}
+	
+	.list1 ul li a{
+		
+		color:#fff;
+		text-decoration:none;
+		
+	}
+	
+	
+	.list1 ul li a:hover{
+		background-color:#fff;
+		color:#000;
+		width:150;
+		padding:10px 25px;
+	}
+	
+	
+	
+	footer{
+		background-color:#696969;
+		
+	}
+	.joinus{
+		margin-left:3%;
+	}
+	.about{
+		margin-left:20%;
+		margin-top:-5%;
+	}
+	.Quicklinks{
+		margin-left:60%;
+		margin-top:0%;
+	}
+	.sitelink{
+		margin-left:75%;		
+	}
+	
+	/*CSS for Contect-Us page*/
+	.Contact-section{
+		background:url(8.jpg) no-repeat center;
+		background-size:cover;
+		padding:40px 0;
+margin-top:20%;		
+	}
+	.Contact-section h1{
+		text-align:center;
+		color:#ddd;
+	}
+	.border{
+		width:100px;
+		height:10px;
+		background:#34495e;
+		margin:40px auto;
+	}
+	.Contact-form{
+		max-width:600px;
+		margin:auto;
+		padding:0px 10px;
+		overflow:hidden;
+	}
+	.Contact-form-text{
+		display:block;
+		width:100%;
+		box-sizing:border-box;
+		margin:16px 0;
+		border:0;
+		background:#111;
+		padding:20px 40px;
+		outline:none;
+		color:#ddd;
+		transition:0.5s;
+	}
+	.Contact-form-text:focus{
+		box-shadow:0 0 10px 4px #34495e;
+	}
+	textarea.cotact-form-text{
+		resize:none;
+		height:120px;
+	}
+	.Contact-form-button{
+		float:right;
+		border:0;
+		background:#34495;
+		color:#fff;
+		padding:12px 50px;
+		border-radius:20px;
+		cursor:pointer
+		transition:0.5s;
+		background-color:green;
+	}
+	.Contact-form-button:hover{
+		background:#2980b9;
+	}
+	
