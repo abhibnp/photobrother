@@ -1,0 +1,56 @@
+
+	Header
+	{
+		background-image: ("");
+		height:100vh;
+		background-size:cover;
+		background-position:center;
+	}
+	
+	.buttons ul{
+		list-style-type:none;
+		float:right;
+		margin-top:-5%;
+		
+	}
+	.buttons ul li{
+		
+		display:inline;
+	}
+	.buttons ul li a{
+		
+		text-decoration:none;
+		color:#fff;
+		padding:5px 20px;
+		border:1px solid transparent;
+		transition:0.6s ease;
+	}
+	.buttons ul li a:hover{
+		background-color:#fff;
+		color:#000;
+	}
+	.buttons ul li.active a{
+		background-color:#fff;
+		color:#000;
+		
+	}
+	.buttons{
+		margin-top:0px;
+		
+		list-style:none;
+		
+	}
+	.itembar{
+		margin-top:-40%;
+		margin:5px 10px;
+	}
+	.itembar img{
+		transition:1s;
+		padding:5px;
+		width:200px;
+	}
+	.itembar img:hover{
+		filter:grayscale(100%);
+		transform:scale(1.2);
+	}
+	

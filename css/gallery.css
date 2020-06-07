@@ -1,0 +1,90 @@
+	
+	*{
+	margin:1px;
+	
+}
+.UpperBorder{
+	border-style:solid;
+	min-width:1178px;
+	min-height:108px;
+	margin-left:161px;
+	background-color:#012340;
+	border-top-color:yellow;
+	border-left-width:0px;
+	color:white;
+			}
+			.logo{
+				margin-left:0.5px;
+				margin-top:-114PX;
+				height:60%;
+				
+			}
+			
+	Header
+	{
+		background-image: url("https://images.unsplash.com/photo-1464925257126-6450e871c667?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80");
+		height:100vh;
+		background-size:cover;
+		background-position:center;
+	}
+	.TitleName{
+		margin-left:5px;
+		margin-top:40px;
+		font-size:20px;
+	}
+	.Search{
+				margin-left:830px;
+				margin-top:-40px;
+			}
+	.Slogen{
+		
+		font-size:5px;
+		
+	}
+	
+	.buttons ul{
+		list-style-type:none;
+		float:right;
+		margin-top:-5%;
+		
+	}
+	.buttons ul li{
+		
+		display:inline;
+	}
+	.buttons ul li a{
+		
+		text-decoration:none;
+		color:#fff;
+		padding:5px 20px;
+		border:1px solid transparent;
+		transition:0.6s ease;
+	}
+	.buttons ul li a:hover{
+		background-color:#fff;
+		color:#000;
+	}
+	.buttons ul li.active a{
+		background-color:#fff;
+		color:#000;
+		
+	}
+	.buttons{
+		margin-top:-250px;
+		
+		list-style:none;
+		
+	}
+	.itembar{
+		margin:5px 10px;
+	}
+	.itembar img{
+		transition:1s;
+		padding:5px;
+		width:200px;
+	}
+	.itembar img:hover{
+		filter:grayscale(100%);
+		transform:scale(1.2);
+	}
+	
